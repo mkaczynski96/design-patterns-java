@@ -7,10 +7,10 @@ import creational.abstractfactory.artists.travisscott.TravisScott;
 import creational.abstractfactory.factories.GUIFactory;
 
 public class App {
-    private JohnColtrane johnColtrane;
-    private MichaelJackson michaelJackson;
-    private RaeSremmurd raeSremmurd;
-    private TravisScott travisScott;
+    private final JohnColtrane johnColtrane;
+    private final MichaelJackson michaelJackson;
+    private final RaeSremmurd raeSremmurd;
+    private final TravisScott travisScott;
 
     public App(GUIFactory factory) {
         johnColtrane = factory.createJohnColtrane();
@@ -19,7 +19,7 @@ public class App {
         travisScott = factory.createTravisScott();
     }
 
-    public void play(){
+    public void play() {
         johnColtrane.create();
         michaelJackson.create();
         raeSremmurd.create();
