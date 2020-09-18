@@ -1,7 +1,7 @@
 package structural.adapter.adapters;
 
-import structural.adapter.shirt.CompactDisc;
-import structural.adapter.shirt.Pendrive;
+import structural.adapter.cdrom.CompactDisc;
+import structural.adapter.cdrom.Pendrive;
 
 public class PendriveAdapter extends CompactDisc {
     private Pendrive pendrive;

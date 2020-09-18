@@ -1,4 +1,4 @@
-package structural.adapter.shirt;
+package structural.adapter.cdrom;
 
 public class CDRom {
     private String type;

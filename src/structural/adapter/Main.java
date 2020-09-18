@@ -1,9 +1,9 @@
 package structural.adapter;
 
 import structural.adapter.adapters.PendriveAdapter;
-import structural.adapter.shirt.CDRom;
-import structural.adapter.shirt.CompactDisc;
-import structural.adapter.shirt.Pendrive;
+import structural.adapter.cdrom.CDRom;
+import structural.adapter.cdrom.CompactDisc;
+import structural.adapter.cdrom.Pendrive;
 
 public class Main {
     public static void main(String[] args) {

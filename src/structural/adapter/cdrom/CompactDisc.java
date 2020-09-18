@@ -1,4 +1,4 @@
-package structural.adapter.shirt;
+package structural.adapter.cdrom;
 
 public class CompactDisc {
     private String type;
