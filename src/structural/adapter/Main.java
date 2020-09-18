@@ -16,7 +16,7 @@ public class Main {
         Pendrive pendrive = new Pendrive("Flash");
         PendriveAdapter pendriveAdapter = new PendriveAdapter(pendrive);
         if (cdRom.fits(pendriveAdapter)) {
-            System.out.println("Pendrive connected to to CDRom");
+            System.out.println("Pendrive connected to CDRom");
         }
     }
 }
