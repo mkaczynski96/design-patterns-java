@@ -4,7 +4,7 @@ import structural.adapter.shirt.CompactDisc;
 import structural.adapter.shirt.Pendrive;
 
 public class PendriveAdapter extends CompactDisc {
-    private final Pendrive pendrive;
+    private Pendrive pendrive;
 
     public PendriveAdapter(Pendrive pendrive) {
         this.pendrive = pendrive;
@@ -12,7 +12,7 @@ public class PendriveAdapter extends CompactDisc {
 
     @Override
     public String getType() {
-        System.out.println("Applied pendrive to cdr-pendrive-adapter!");
+        System.out.println("Pendrive applied to cdr-pendrive-adapter!");
         return "CD-R";
     }
 }
