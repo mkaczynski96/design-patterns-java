@@ -1,0 +1,2 @@
+Singleton is pattern/antipattern to use only one instance.
+It's not recommended to use Singletons. Instead, Factory pattern could be used.
