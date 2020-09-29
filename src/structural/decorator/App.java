@@ -9,9 +9,9 @@ public class App {
 
     public App() {
         this.stack = new Notifier();
-        if (true) stack = new FacebookDecorator(stack);
-        if (true) stack = new SlackDecorator(stack);
-        if (true) stack = new SMSDecorator(stack);
+        stack = new FacebookDecorator(stack);
+        stack = new SlackDecorator(stack);
+        stack = new SMSDecorator(stack);
         setNotifier(stack);
         send();
     }
